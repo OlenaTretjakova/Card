@@ -1,0 +1,125 @@
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 4px; 
+}
+body {
+    display: flex;
+}
+
+.wrapper-content {
+    background: linear-gradient(to bottom, #f1efef 50%, #ef5e5e 50%);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-main {
+    color: #ef5e5e;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    background-color: aliceblue;
+    width: 30%;
+    height: 250px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    border: 3px solid #ef5e5e;
+    padding: 3px;
+    background-color: aliceblue;
+}
+
+.actor-title {
+    color: #0a0000;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 20px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: #ef5e5e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb {
+    width: 20px;
+    height: 20px;
+}
+
+.divChoosed {
+    display: flex;
+    background-color: aliceblue;
+    margin: 20px auto;
+    height: 50px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.divChoosed:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.text-class {
+    color: #b83333;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
